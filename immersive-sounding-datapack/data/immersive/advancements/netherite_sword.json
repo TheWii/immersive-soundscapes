@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "metalswords": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "item": "minecraft:netherite_sword"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "metalswords"
+        ]
+    ],
+    "rewards": {
+        "function": "immersive:player/hit/metal_swords"
+    },
+    "parent": "immersive:root"
+}

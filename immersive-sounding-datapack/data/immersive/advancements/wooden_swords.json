@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "woodensword": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "immersive:wooden_sword"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "woodensword"
+        ]
+    ],
+    "rewards": {
+        "function": "immersive:player/hit/wooden_swords"
+    },
+    "parent": "immersive:root"
+}
