@@ -47,6 +47,6 @@ function thewii:immersive/detect_1.16
 
 function thewii:immersive/rng/init
 
-data merge storage thewii:immersive/data {FirstReload:1b,Version:"2.2",NumericVersion:20200,Installed:1b}
+data merge storage thewii:immersive/data {FirstReload:1b,Version:"2.3",NumericVersion:20300,Installed:1b}
 
 execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Datapack]: ","color":"green","bold":true},{"text":"Immersive Sounding v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" installed! ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Sounding v2.2! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"http://www.mediafire.com/file/9eieblz1rdhgiaj/immersive-sounding-resourcepack-v2-2.zip/file"}}]
