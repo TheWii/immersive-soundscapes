@@ -17,8 +17,8 @@ scoreboard objectives remove twis.preloc
 scoreboard objectives remove twis.trans
 scoreboard objectives remove twis.pretrans
 
-scoreboard objectives remove twis.river
-scoreboard objectives remove twis.riversw
+scoreboard objectives remove twis.backgr
+scoreboard objectives remove twis.backgrsw
 
 scoreboard objectives remove twis.loop
 scoreboard objectives remove twis.enter

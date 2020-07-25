@@ -2,9 +2,9 @@
 execute unless score @s twis.loc = @s twis.locsw unless score @s twis.trans matches 1.. run scoreboard players set @s twis.trans 1
 execute if score @s twis.trans matches 1..10 run function immersive:ambience/transition
 
-# MANAGE RIVER AMBIENCE
-execute unless score @s twis.river = @s twis.riversw unless score @s twis.trans matches 1.. run scoreboard players set @s twis.trans 11
-execute if score @s twis.trans matches 11..20 run function immersive:ambience/river_switch
+# MANAGE BACKGROUND AMBIENCE
+execute unless score @s twis.backgr = @s twis.backgrsw unless score @s twis.trans matches 1.. run scoreboard players set @s twis.trans 11
+execute if score @s twis.trans matches 11..20 run function immersive:ambience/backgr_switch
 
 # MANAGE AMBIENCE LOOP
 execute if score @s twis.loc matches 1..100 if score @s twis.outside matches 1 run function immersive:ambience/surface_loop

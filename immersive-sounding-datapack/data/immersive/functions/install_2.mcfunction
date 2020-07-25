@@ -11,8 +11,8 @@ scoreboard objectives add twis.preloc dummy
 scoreboard objectives add twis.pretrans dummy
 scoreboard objectives add twis.trans dummy
 
-scoreboard objectives add twis.river dummy
-scoreboard objectives add twis.riversw dummy
+scoreboard objectives add twis.backgr dummy
+scoreboard objectives add twis.backgrsw dummy
 
 scoreboard objectives add twis.loop dummy
 scoreboard objectives add twis.enter dummy

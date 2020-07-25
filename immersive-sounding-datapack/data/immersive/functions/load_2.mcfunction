@@ -15,5 +15,4 @@ function immersive:main_20
 scoreboard players enable @a ImmerSounding
 
 # Update
-execute if data storage immersive:storage Version run function immersive:update_convert
-execute unless data storage immersive:data {Version:"2.2"} run function immersive:update_normal
+execute unless data storage immersive:data {Version:"2.2"} run function immersive:update
