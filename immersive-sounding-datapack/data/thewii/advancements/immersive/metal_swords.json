@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "metalswords": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "thewii:immersive/metal_swords"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "metalswords"
+        ]
+    ],
+    "rewards": {
+        "function": "thewii:immersive/player/hit/metal_swords"
+    },
+    "parent": "thewii:immersive/root"
+}
