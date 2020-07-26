@@ -46,4 +46,4 @@ execute if score @s twis.loc matches 102 run playsound thewii:immersive.ambient.
 
 
 # DIMENSIONS
-execute unless score $netherupdate twis.loop matches 1 if score @s twis.loc matches 201 run playsound thewii:immersive.ambient.nether.loop ambient @s ~ ~ ~ 0.15 1
+execute unless score $1.16 twis.data matches 1 if score @s twis.loc matches 201 run playsound thewii:immersive.ambient.nether.loop ambient @s ~ ~ ~ 0.15 1
