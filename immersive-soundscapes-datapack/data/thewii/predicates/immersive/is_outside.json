@@ -1,0 +1,248 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 1,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 2,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 3,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 4,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 5,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 6,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 7,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 8,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 9,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 10,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 11,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 12,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 13,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 14,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 15,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 16,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 17,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 18,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 19,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "offsetY": 20,
+          "predicate": {
+            "block": {
+              "tag": "thewii:immersive/masked"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

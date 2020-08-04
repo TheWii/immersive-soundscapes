@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "joined": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "joined"
+        ]
+    ],
+    "rewards": {
+        "function": "thewii:immersive/player/joined"
+    }
+}
