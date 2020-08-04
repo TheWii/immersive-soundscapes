@@ -3,7 +3,7 @@ execute unless entity @s[tag=!global.ignore] run function thewii:immersive/check
 scoreboard players set @s twis.loop 0
 
 scoreboard players set @a ImmerSoundscapes 0
-scoreboard players enable @a ImmerSoundscapes
+scoreboard players enable @a[tag=!global.ignore] ImmerSoundscapes
 
 execute unless score @s twis.cfg_cst matches 1.. run scoreboard players set @s twis.cfg_cst 3
 execute unless score @s twis.cfg_csttrig matches 1.. run scoreboard players set @a twis.cfg_csttrig 2

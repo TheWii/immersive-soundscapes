@@ -12,7 +12,7 @@ function thewii:immersive/detect_1.16
 function thewii:immersive/main_20
 
 # Reset trigger
-scoreboard players enable @a ImmerSoundscapes
+scoreboard players enable @a[tag=!global.ignore] ImmerSoundscapes
 
 # Update
 execute unless data storage thewii:immersive/data {Version:"2.3"} run function thewii:immersive/update
