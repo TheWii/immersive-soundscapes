@@ -1,5 +1,5 @@
 # Settings trigger
-execute as @a[scores={ImmerSounding=-2146473648..}] run function thewii:immersive/settings/trigger
+execute as @a[scores={ImmerSoundscapes=-2146473648..}] run function thewii:immersive/settings/trigger
 
 # Joined
 execute as @a[scores={twis.joined=-2146473648..}] run function thewii:immersive/player/joined

@@ -28,7 +28,7 @@ scoreboard objectives remove twis.joined
 scoreboard objectives remove twis.dim
 scoreboard objectives remove twis.dimsw
 
-scoreboard objectives remove ImmerSounding
+scoreboard objectives remove ImmerSoundscapes
 
 scoreboard objectives remove twis.cst_id
 scoreboard objectives remove twis.cst_idle
@@ -38,7 +38,7 @@ scoreboard objectives remove twis.cst_playing
 scoreboard objectives remove twis.cfg_cst
 scoreboard objectives remove twis.cfg_csttrig
 
-execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] ["",{"text":"[Datapack]: ","color":"red","bold":true},{"text":"Immersive Sounding v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" uninstalled. Use ","color":"white","bold":false},{"text":"/function thewii:immersive/install"},{"text":" or disable the datapack/remove it from the world."}]
+execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] ["",{"text":"[Datapack]: ","color":"red","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" uninstalled. Use ","color":"white","bold":false},{"text":"/function thewii:immersive/install"},{"text":" or disable the datapack/remove it from the world."}]
 
 data remove storage thewii:immersive/data Version
 data remove storage thewii:immersive/data NumericVersion

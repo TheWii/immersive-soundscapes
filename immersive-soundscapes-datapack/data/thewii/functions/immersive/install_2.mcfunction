@@ -27,9 +27,9 @@ scoreboard objectives add twis.cst_idle dummy
 scoreboard objectives add twis.cst_length dummy
 scoreboard objectives add twis.cst_playing dummy
 
-scoreboard objectives add ImmerSounding trigger
-scoreboard players set @a ImmerSounding 0
-scoreboard players enable @a ImmerSounding
+scoreboard objectives add ImmerSoundscapes trigger
+scoreboard players set @a ImmerSoundscapes 0
+scoreboard players enable @a ImmerSoundscapes
 
 scoreboard objectives add twis.cfg_cst dummy
 scoreboard objectives add twis.cfg_csttrig dummy
@@ -49,4 +49,4 @@ function thewii:immersive/rng/init
 
 data merge storage thewii:immersive/data {FirstReload:1b,Version:"2.3",NumericVersion:20300,Installed:1b}
 
-execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Datapack]: ","color":"green","bold":true},{"text":"Immersive Sounding v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" installed! ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Sounding v2.2! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"http://www.mediafire.com/file/9eieblz1rdhgiaj/immersive-sounding-resourcepack-v2-2.zip/file"}}]
+execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Datapack]: ","color":"green","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" installed! ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Soundscapes v2.2! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"http://www.mediafire.com/file/9eieblz1rdhgiaj/immersive-sounding-resourcepack-v2-2.zip/file"}}]
