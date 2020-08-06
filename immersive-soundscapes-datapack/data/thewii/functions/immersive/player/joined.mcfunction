@@ -15,7 +15,7 @@ scoreboard players reset @s twis.cst_playing
 scoreboard players reset @s twis.cst_id
 scoreboard players reset @s twis.cst_length
 
-execute if score $installed twis.data matches 1 run tellraw @s[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Client]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes is loaded. ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Soundscapes v2.2! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"http://www.mediafire.com/file/9eieblz1rdhgiaj/immersive-sounding-resourcepack-v2-2.zip/file"}}]
+execute if score $installed twis.data matches 1 run tellraw @s[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" is loaded! ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Soundscapes v2.3! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"https://github.com/TheWii/immersive-soundscapes/releases/latest"}}]
 
 scoreboard players reset @s twis.joined
 advancement grant @s only thewii:immersive/player_joined
