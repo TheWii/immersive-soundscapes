@@ -7,15 +7,27 @@
 			"thewii:immersive/entity/player/jump3",
 			{
 				"name": "thewii:immersive/entity/player/jump1",
-				"volume": 0.6
+				"volume": 0.7
 			},
 			{
 				"name": "thewii:immersive/entity/player/jump2",
-				"volume": 0.6
+				"volume": 0.7
 			},
 			{
 				"name": "thewii:immersive/entity/player/jump3",
-				"volume": 0.6
+				"volume": 0.7
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump1",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump2",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump3",
+				"volume": 0.5
 			}
 		]
 	},
@@ -159,17 +171,26 @@
 	"immersive.ambient.surface.forest.night_addition": {
 		"category": "ambient",
 		"sounds": [
-			"thewii:immersive/ambient/surface/forest/night_addition1",
-			"thewii:immersive/ambient/surface/forest/night_addition2",
-			"thewii:immersive/ambient/surface/forest/night_addition3",
 			{
-				"name": "thewii:immersive/ambient/surface/forest/night_addition4",
-				"pitch": 0.9,
-				"volume": 0.3
+				"name": "thewii:immersive/ambient/surface/forest/night_addition1",
+				"volume": 0.8
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition2",
+				"volume": 0.4
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition3",
+				"volume": 0.6
 			},
 			{
 				"name": "thewii:immersive/ambient/surface/forest/night_addition4",
+				"pitch": 0.9,
 				"volume": 0.2
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition4",
+				"volume": 0.15
 			},
 			{
 				"name": "thewii:immersive/ambient/surface/forest/night_addition5",
@@ -178,7 +199,11 @@
 			},
 			{
 				"name": "thewii:immersive/ambient/surface/forest/night_addition5",
-				"volume": 0.2
+				"volume": 0.15
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition6",
+				"volume": 0.4
 			}
 		]
 	},
@@ -355,38 +380,46 @@
 		"sounds": [
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition1",
-				"weight": 3
+				"weight": 2,
+				"volume": 1.0
 			},
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition2",
-				"weight": 3
+				"weight": 20,
+				"volume": 1.0
 			},
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition3",
-				"weight": 3
+				"weight": 20,
+				"volume": 1.0
 			},
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition4",
-				"weight": 3
+				"weight": 10,
+				"volume": 0.2
 			},
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition5",
-				"weight": 3
+				"weight": 10,
+				"volume": 0.2
 			},
 			{
 				"name": "thewii:immersive/ambient/caves/cave_addition6",
+				"weight": 10,
 				"pitch": 0.95,
-				"volume": 0.7
+				"volume": 0.1
 			},
 			{
-				"name": "thewii:immersive/ambient/caves/cave_addition6",
+				"name": "thewii:immersive/ambient/caves/cave_addition7",
+				"weight": 10,
 				"pitch": 0.8,
-				"volume": 0.7
+				"volume": 1.0
 			},
 			{
-				"name": "thewii:immersive/ambient/caves/cave_addition6",
+				"name": "thewii:immersive/ambient/caves/cave_addition8",
+				"weight": 10,
 				"pitch": 0.7,
-				"volume": 0.7
+				"volume": 1.0
 			}
 		]
 	},

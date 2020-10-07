@@ -2,16 +2,16 @@
 #tellraw @s ["Stopping sound from ",{"score":{"name":"#location","objective":"twis.loop"}}]
 
 # Forest
-execute if score #location twis.loop matches 1 if score #time twis.data matches 0 run stopsound @s ambient thewii:immersive.ambient.surface.forest.day_loop
-execute if score #location twis.loop matches 1 if score #time twis.data matches 1 run stopsound @s ambient thewii:immersive.ambient.surface.forest.night_loop
+execute if score #location twis.loop matches 1 if score $time twis.data matches 0..1 run stopsound @s ambient thewii:immersive.ambient.surface.forest.day_loop
+execute if score #location twis.loop matches 1 if score $time twis.data matches 2..3 run stopsound @s ambient thewii:immersive.ambient.surface.forest.night_loop
 
 # Desert
-execute if score #location twis.loop matches 2 if score #time twis.data matches 0 run stopsound @s ambient thewii:immersive.ambient.surface.desert.day_loop
-execute if score #location twis.loop matches 2 if score #time twis.data matches 1 run stopsound @s ambient thewii:immersive.ambient.surface.desert.night_loop
+execute if score #location twis.loop matches 2 if score $time twis.data matches 0..1 run stopsound @s ambient thewii:immersive.ambient.surface.desert.day_loop
+execute if score #location twis.loop matches 2 if score $time twis.data matches 2..3 run stopsound @s ambient thewii:immersive.ambient.surface.desert.night_loop
 
 # Swamp
-execute if score #location twis.loop matches 5 if score #time twis.data matches 0 run stopsound @s ambient thewii:immersive.ambient.surface.swamp.day_loop
-execute if score #location twis.loop matches 5 if score #time twis.data matches 1 run stopsound @s ambient thewii:immersive.ambient.surface.swamp.night_loop
+execute if score #location twis.loop matches 5 if score $time twis.data matches 0..1 run stopsound @s ambient thewii:immersive.ambient.surface.swamp.day_loop
+execute if score #location twis.loop matches 5 if score $time twis.data matches 2..3 run stopsound @s ambient thewii:immersive.ambient.surface.swamp.night_loop
 
 # Beach
 execute if score #location twis.loop matches 3 run stopsound @s ambient thewii:immersive.ambient.surface.beach.loop
