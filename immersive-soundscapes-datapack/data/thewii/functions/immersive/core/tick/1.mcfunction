@@ -19,3 +19,6 @@ execute as @a[scores={twis.jump=-2146473648..}] run function thewii:immersive/pl
 
 # Ambience
 execute as @a at @s run function thewii:immersive/ambience/main
+
+# Heartbeat loop
+execute as @a[scores={twis.heart_loop=1..}] run function thewii:immersive/player/heartbeat/loop

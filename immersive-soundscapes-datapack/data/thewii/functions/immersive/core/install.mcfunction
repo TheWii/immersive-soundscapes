@@ -24,6 +24,9 @@ scoreboard objectives add twis.joined minecraft.custom:minecraft.leave_game
 scoreboard objectives add twis.dim dummy
 scoreboard objectives add twis.dimsw dummy
 
+scoreboard objectives add twis.health dummy
+scoreboard objectives add twis.heart_loop dummy
+
 scoreboard objectives add twis.cst_id dummy
 scoreboard objectives add twis.cst_idle dummy
 scoreboard objectives add twis.cst_length dummy

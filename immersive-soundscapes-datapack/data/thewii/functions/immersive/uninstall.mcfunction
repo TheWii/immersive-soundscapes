@@ -1,5 +1,9 @@
 #> thewii:immersive/uninstall
 
+# Clear schedules
+schedule clear thewii:immersive/core/tick/5
+schedule clear thewii:immersive/core/tick/20
+
 # Revoke advancements
 advancement revoke @a only thewii:immersive/metal_swords
 advancement revoke @a only thewii:immersive/metal_tools
@@ -10,7 +14,6 @@ advancement revoke @a only thewii:immersive/player_joined
 
 # Remove objectives
 scoreboard objectives remove twis.data
-scoreboard objectives remove twis.temp
 
 scoreboard objectives remove twis.jump
 
@@ -51,11 +54,10 @@ execute if data storage thewii:immersive/data installed run function thewii:vp_l
 # Clear load version
 scoreboard players reset $immersive_soundscapes thewii.load
 
-
 # Clear storage
 data remove storage thewii:immersive/data installed
 data remove storage thewii:immersive/data version
 
 
 # Uninstalled message
-tellraw @a [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Improved Apiculture was uninstalled. Disable the datapack to complete uninstallation or /reload to reinstall it.","color":"white","bold":false}]
+tellraw @a [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes was uninstalled. Disable the datapack to complete uninstallation or /reload to reinstall it.","color":"white","bold":false}]

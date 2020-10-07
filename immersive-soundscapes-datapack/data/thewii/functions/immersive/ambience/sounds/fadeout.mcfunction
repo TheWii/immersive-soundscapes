@@ -1,4 +1,6 @@
 #> thewii:immersive/ambience/sounds/fadeout
+#tellraw @s ["Fading out from ",{"score":{"name":"#location","objective":"twis.loop"}}]
+
 
 # Forest
 execute if score #location twis.loop matches 1 if score #time twis.data matches 0 run playsound thewii:immersive.ambient.surface.forest.day_fadeout ambient @s ~ ~ ~ 1 1
@@ -25,7 +27,10 @@ execute if score #location twis.loop matches 10 run playsound thewii:immersive.a
 execute if score #location twis.loop matches 100 run playsound thewii:immersive.ambient.surface.wind.fadeout ambient @s ~ ~ ~ 0.7 1
 
 # Cave
-execute if score #location twis.loop matches 101 run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.07 1
+execute if score #location twis.loop matches 101 run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.01 1
+execute if score #location twis.loop matches 102 run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.03 1
+execute if score #location twis.loop matches 103 run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.05 1
+execute if score #location twis.loop matches 104 run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.07 1
 
 # Mineshaft
-execute if score #location twis.loop matches 102 run playsound thewii:immersive.ambient.mineshaft.loop_fadeout ambient @s ~ ~ ~ 0.75 1
+execute if score #location twis.loop matches 105 run playsound thewii:immersive.ambient.mineshaft.loop_fadeout ambient @s ~ ~ ~ 0.75 1

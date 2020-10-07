@@ -24,6 +24,7 @@ execute if score $immersive_soundscapes thewii.load > $version.merged twis.data 
 
 # Schedules
 schedule function thewii:immersive/core/tick/20 20t replace
+schedule function thewii:immersive/core/tick/5 5t replace
 
 
 # Declarations

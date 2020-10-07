@@ -1,6 +1,7 @@
 #> thewii:immersive/core/load
 
 # Clear schedules
+schedule clear thewii:immersive/core/tick/5
 schedule clear thewii:immersive/core/tick/20
 
 

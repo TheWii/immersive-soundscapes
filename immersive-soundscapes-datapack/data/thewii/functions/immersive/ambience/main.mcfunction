@@ -4,7 +4,7 @@
 execute unless score @s twis.dim = @s twis.dimsw run function thewii:immersive/player/dimensions
 
 
-# Manage ambience fading out after transition
+# Manage ambience transitions
 execute unless score @s twis.loc = @s twis.locsw unless score @s twis.trans matches 1.. run scoreboard players set @s twis.trans 1
 execute if score @s twis.trans matches 1..10 run function thewii:immersive/ambience/transition
 

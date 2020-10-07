@@ -11,7 +11,7 @@ execute if predicate thewii:immersive/weather/is_thundering run scoreboard playe
 
 
 # Update player location system
-execute as @a at @s run function thewii:immersive/player/check_location
+execute as @a at @s run function thewii:immersive/player/location/start
 
 
 # Custom Soundtrack(CST) system
