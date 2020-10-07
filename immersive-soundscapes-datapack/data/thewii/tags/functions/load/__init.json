@@ -1,0 +1,8 @@
+{
+    "values": [
+        "thewii:load/__init",
+        "#thewii:load/standard",
+        "#thewii:load/load",
+        "#thewii:load/post_load"
+    ]
+}

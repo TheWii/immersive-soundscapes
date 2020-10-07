@@ -1,5 +1,7 @@
+#> thewii:immersive/core/install
+
+# Ojectives
 scoreboard objectives add twis.data dummy
-scoreboard objectives add twis.temp dummy
 
 scoreboard objectives add twis.jump minecraft.custom:minecraft.jump
 
@@ -42,11 +44,16 @@ scoreboard players set $soundtracks twis.data 1
 scoreboard players set $min_cst_idle twis.data 480
 scoreboard players set $max_cst_idle twis.data 1200
 
-scoreboard players set $1.16 twis.data 0
-function thewii:immersive/detect_1.16
 
-function thewii:immersive/rng/init
+# Vanilla+ Lib modules
+execute unless data storage thewii:immersive/data installed run function thewii:vp_library/math/add
 
-data merge storage thewii:immersive/data {FirstReload:1b,Version:"2.3",NumericVersion:20300,Installed:1b}
 
-execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Datapack]: ","color":"green","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" installed! ","color":"white","bold":false},{"translate":"(Seems like you aren't using the resource pack for Immersive Soundscapes v2.3! Click here to download.)","color":"red","bold":false,"clickEvent":{"action":"open_url","value":"https://github.com/TheWii/immersive-soundscapes/releases/latest"}}]
+# Versioning
+data modify storage thewii:immersive/data installed set value 1b
+
+function thewii:immersive/core/version
+
+
+# Installed message
+tellraw @a [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"score":{"name":"$version.major","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.minor","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.patch","objective":"twis.data"},"color":"white","bold":false},{"text":" was installed!","color":"white","bold":false}]
