@@ -4,65 +4,65 @@
 		"replace": true,
 		"sounds": [
 			{
-			"name":"thewii:immersive/random/bow",
-			"weight": 100,
-			"volume": 1.5
+				"name": "thewii:immersive/random/bow",
+				"weight": 100,
+				"volume": 1.5
 			}
-    ]
-  },
+		]
+	},
 	"entity.arrow.shoot": {
 		"category": "ambient",
 		"replace": true,
 		"sounds": [
 			{
-			"name":"thewii:immersive/random/bow",
-			"weight": 100,
-			"volume": 1.5
+				"name": "thewii:immersive/random/bow",
+				"weight": 100,
+				"volume": 1.5
 			}
-    ]
-  },
-  	"weather.rain": {
+		]
+	},
+	"weather.rain": {
 		"category": "weather",
 		"replace": true,
 		"sounds": [
 			{
-			"name":"minecraft:ambient/weather/rain1",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain1",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain2",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain2",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain3",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain3",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain4",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain4",
+				"volume": 0.2
 			}
-    ]
-  },
-    	"weather.rain.above": {
+		]
+	},
+	"weather.rain.above": {
 		"category": "weather",
 		"replace": true,
 		"sounds": [
 			{
-			"name":"minecraft:ambient/weather/rain1",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain1",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain2",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain2",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain3",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain3",
+				"volume": 0.2
 			},
 			{
-			"name":"minecraft:ambient/weather/rain4",
-			"volume": 0.2
+				"name": "minecraft:ambient/weather/rain4",
+				"volume": 0.2
 			}
-    ]
-  }
+		]
+	}
 }
