@@ -38,6 +38,11 @@ scoreboard objectives remove twis.dimsw
 
 scoreboard objectives remove ImmerSoundscapes
 
+scoreboard objectives remove twis.cfg_jump
+scoreboard objectives remove twis.cfg_heart
+scoreboard objectives remove twis.cfg_swords
+scoreboard objectives remove twis.cfg_tools
+
 scoreboard objectives remove twis.cst_id
 scoreboard objectives remove twis.cst_idle
 scoreboard objectives remove twis.cst_length

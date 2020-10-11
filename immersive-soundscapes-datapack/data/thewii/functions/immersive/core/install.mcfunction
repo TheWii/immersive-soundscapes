@@ -38,8 +38,18 @@ scoreboard players enable @a ImmerSoundscapes
 
 scoreboard objectives add twis.cfg_cst dummy
 scoreboard objectives add twis.cfg_csttrig dummy
+
+scoreboard objectives add twis.cfg_jump dummy
+scoreboard objectives add twis.cfg_heart dummy
+scoreboard objectives add twis.cfg_swords dummy
+scoreboard objectives add twis.cfg_tools dummy
+
 scoreboard players set @a twis.cfg_cst 3
 scoreboard players set @a twis.cfg_csttrig 2
+scoreboard players set @a twis.cfg_jump 1
+scoreboard players set @a twis.cfg_heart 1
+scoreboard players set @a twis.cfg_swords 1
+scoreboard players set @a twis.cfg_tools 1
 
 scoreboard players set $installed twis.data 1
 scoreboard players set $soundtracks twis.data 1

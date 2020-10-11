@@ -1,8 +1,16 @@
+#> thewii:immersive/cst/play
+
 # Stop any music playing
 stopsound @s music
 
+# Disable idle and enable playing time
+scoreboard players reset @s twis.cst_idle
+scoreboard players set @s twis.cst_playing 0
 
-# Play vanilla soundtrack
+
+# Play soundtrack
+
+## Vanilla
 execute if score @s twis.cst_id matches 1 run playsound minecraft:soundtrack.game music @s ~ ~ ~ 1 1
 execute if score @s twis.cst_id matches 2 run playsound minecraft:soundtrack.creative music @s ~ ~ ~ 1 1
 execute if score @s twis.cst_id matches 3 run playsound minecraft:soundtrack.underwater music @s ~ ~ ~ 1 1
@@ -15,23 +23,24 @@ execute if score @s twis.cst_id matches 9 run playsound minecraft:soundtrack.net
 execute if score @s twis.cst_id matches 10 run playsound minecraft:soundtrack.end music @s ~ ~ ~ 1 1
 execute if score @s twis.cst_id matches 11 run playsound minecraft:soundtrack.dragon music @s ~ ~ ~ 1 1
 
+## Custom
+## Use the soundtrack ID you chose in "custom_soundtrack.mcfunction" and play the soundtrack.
+execute if score @s twis.cst_id matches 12 run playsound thewii:immersive.soundtrack.plains music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 13 run playsound thewii:immersive.soundtrack.desert music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 14 run playsound thewii:immersive.soundtrack.ocean music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 15 run playsound thewii:immersive.soundtrack.swamp music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 16 run playsound thewii:immersive.soundtrack.taiga music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 17 run playsound thewii:immersive.soundtrack.jungle music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 18 run playsound thewii:immersive.soundtrack.savanna music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 19 run playsound thewii:immersive.soundtrack.extreme_hills music @s ~ ~ ~ 1 1
+execute if score @s twis.cst_id matches 20 run playsound thewii:immersive.soundtrack.mesa music @s ~ ~ ~ 1 1
 
-#> Play custom soundtrack
-#>  Use the soundtrack ID you chose in "custom_soundtrack.mcfunction" and play the soundtrack.
-execute if score @s twis.cst_id matches 12 run playsound thewii:immersive/soundtrack.plains music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 13 run playsound thewii:immersive/soundtrack.desert music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 14 run playsound thewii:immersive/soundtrack.ocean music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 15 run playsound thewii:immersive/soundtrack.swamp music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 16 run playsound thewii:immersive/soundtrack.taiga music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 17 run playsound thewii:immersive/soundtrack.jungle music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 18 run playsound thewii:immersive/soundtrack.savanna music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 19 run playsound thewii:immersive/soundtrack.extreme_hills music @s ~ ~ ~ 1 1
-execute if score @s twis.cst_id matches 20 run playsound thewii:immersive/soundtrack.mesa music @s ~ ~ ~ 1 1
 
 
-#> Set soundtrack length (in seconds)
-#> Datapacks can't know when a sound is not playing anymore, so this number will tell the system to finish the soundtrack and start idle time.
+# Set soundtrack lenght
+# Datapacks can't know when a sound is not playing anymore, so this number will tell the system to finish the soundtrack and start idle time.
 
+## Vanilla
 execute if score @s twis.cst_id matches 1 run scoreboard players set @s twis.cst_length 281
 execute if score @s twis.cst_id matches 2 run scoreboard players set @s twis.cst_length 516
 execute if score @s twis.cst_id matches 3 run scoreboard players set @s twis.cst_length 375
@@ -43,7 +52,7 @@ execute if score @s twis.cst_id matches 9 run scoreboard players set @s twis.cst
 execute if score @s twis.cst_id matches 10 run scoreboard players set @s twis.cst_length 905
 execute if score @s twis.cst_id matches 11 run scoreboard players set @s twis.cst_length 345
 
-
+## Custom
 execute if score @s twis.cst_id matches 12 run scoreboard players set @s twis.cst_length 144
 execute if score @s twis.cst_id matches 13 run scoreboard players set @s twis.cst_length 224
 execute if score @s twis.cst_id matches 14 run scoreboard players set @s twis.cst_length 194
@@ -53,9 +62,3 @@ execute if score @s twis.cst_id matches 17 run scoreboard players set @s twis.cs
 execute if score @s twis.cst_id matches 18 run scoreboard players set @s twis.cst_length 237
 execute if score @s twis.cst_id matches 19 run scoreboard players set @s twis.cst_length 203
 execute if score @s twis.cst_id matches 20 run scoreboard players set @s twis.cst_length 241
-
-
-
-# Disable idle and enable playing time
-scoreboard players reset @s twis.cst_idle
-scoreboard players set @s twis.cst_playing 0
