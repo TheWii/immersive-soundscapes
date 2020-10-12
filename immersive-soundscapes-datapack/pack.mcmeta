@@ -1,6 +1,6 @@
 {
        "pack": {
            "pack_format": 6,
-           "description": "Nature sounds and more!"
+           "description": [{"text":"Immersive Soundscapes.","color":"green"},{"text":"\nVersion 2.4 by TheWii","color":"dark_gray"}]
        }
    }

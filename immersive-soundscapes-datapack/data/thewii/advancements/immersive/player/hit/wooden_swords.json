@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "metalswords": {
+        "woodensword": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -9,7 +9,7 @@
                             "type": "minecraft:player",
                             "equipment": {
                                 "mainhand": {
-                                    "item": "minecraft:netherite_sword"
+                                    "tag": "thewii:immersive/weapon/wooden_sword"
                                 }
                             }
                         }
@@ -20,11 +20,10 @@
     },
     "requirements": [
         [
-            "metalswords"
+            "woodensword"
         ]
     ],
     "rewards": {
-        "function": "thewii:immersive/player/hit/metal_swords"
-    },
-    "parent": "thewii:immersive/root"
+        "function": "thewii:immersive/player/hit/wooden_swords"
+    }
 }

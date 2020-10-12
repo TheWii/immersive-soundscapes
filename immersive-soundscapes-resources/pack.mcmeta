@@ -3,7 +3,6 @@
 "pack": {
     
 	"pack_format": 6,
-    
-	"description": "§7Immersive Soundscapes §8Version 2.3 by TheWii!"
+	"description": [{"text":"Immersive Soundscapes.","color":"green"},{"text":"\nVersion 2.4 by TheWii","color":"dark_gray"}]
   }
 }

@@ -9,7 +9,7 @@
                             "type": "minecraft:player",
                             "equipment": {
                                 "mainhand": {
-                                    "tag": "thewii:immersive/netherite_tools"
+                                    "tag": "thewii:immersive/weapon/metal_swords"
                                 }
                             }
                         }
@@ -25,6 +25,5 @@
     ],
     "rewards": {
         "function": "thewii:immersive/player/hit/metal_swords"
-    },
-    "parent": "thewii:immersive/root"
+    }
 }

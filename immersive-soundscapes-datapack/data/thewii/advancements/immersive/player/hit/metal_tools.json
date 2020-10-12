@@ -9,7 +9,7 @@
                             "type": "minecraft:player",
                             "equipment": {
                                 "mainhand": {
-                                    "tag": "thewii:immersive/metal_tools"
+                                    "tag": "thewii:immersive/weapon/metal_tools"
                                 }
                             }
                         }
@@ -25,6 +25,5 @@
     ],
     "rewards": {
         "function": "thewii:immersive/player/hit/metal_tools"
-    },
-    "parent": "thewii:immersive/root"
+    }
 }

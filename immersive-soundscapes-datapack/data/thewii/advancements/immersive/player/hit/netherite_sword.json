@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "metalswords": {
+        "metaltools": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -9,7 +9,7 @@
                             "type": "minecraft:player",
                             "equipment": {
                                 "mainhand": {
-                                    "tag": "thewii:immersive/metal_swords"
+                                    "tag": "thewii:immersive/weapon/netherite_sword"
                                 }
                             }
                         }
@@ -20,11 +20,10 @@
     },
     "requirements": [
         [
-            "metalswords"
+            "metaltools"
         ]
     ],
     "rewards": {
         "function": "thewii:immersive/player/hit/metal_swords"
-    },
-    "parent": "thewii:immersive/root"
+    }
 }
