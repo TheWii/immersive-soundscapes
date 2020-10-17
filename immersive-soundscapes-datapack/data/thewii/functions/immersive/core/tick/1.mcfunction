@@ -29,7 +29,7 @@ execute as @a[scores={twis.joined=-2146473648..}] run function thewii:immersive/
 execute as @a[scores={twis.jump=-2146473648..}] run function thewii:immersive/player/jump
 
 ## Heartbeat loop
-execute as @a[scores={twis.heart_loop=1..}] run function thewii:immersive/player/heartbeat/loop
+execute as @a[scores={twis.cfg_heart=1,twis.heart_loop=1..}] run function thewii:immersive/player/heartbeat/loop
 
 
 ## Ambience
