@@ -1,22 +1,11 @@
 {
-	"entity.skeleton.shoot": {
-		"category": "ambient",
-		"replace": true,
-		"sounds": [
-			{
-				"name": "thewii:immersive/random/bow",
-				"weight": 100,
-				"volume": 1.5
-			}
-		]
-	},
 	"entity.arrow.shoot": {
 		"category": "ambient",
 		"replace": true,
 		"sounds": [
 			{
 				"name": "thewii:immersive/random/bow",
-				"weight": 100,
+				"weight": 2146473647,
 				"volume": 1.5
 			}
 		]
@@ -64,5 +53,158 @@
 				"volume": 0.2
 			}
 		]
+	},
+	"entity.zombie.ambient": {
+		"sounds": [
+			"mob/zombie/say1",
+			"mob/zombie/say2",
+			"mob/zombie/say3"
+		],
+		"subtitle": "subtitles.entity.zombie.ambient"
+	},
+	"entity.zombie.attack_iron_door": {
+		"sounds": [
+			"mob/zombie/metal1",
+			"mob/zombie/metal2",
+			"mob/zombie/metal3"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"entity.zombie.attack_wooden_door": {
+		"sounds": [
+			"mob/zombie/wood1",
+			"mob/zombie/wood2",
+			"mob/zombie/wood3",
+			"mob/zombie/wood4"
+		],
+		"subtitle": "subtitles.entity.zombie.attack_wooden_door"
+	},
+	"entity.zombie.break_wooden_door": {
+		"sounds": [
+			"mob/zombie/woodbreak"
+		],
+		"subtitle": "subtitles.entity.zombie.break_wooden_door"
+	},
+	"entity.zombie.converted_to_drowned": {
+		"sounds": [
+			"mob/drowned/convert1",
+			"mob/drowned/convert2",
+			"mob/drowned/convert3"
+		],
+		"subtitle": "subtitles.entity.zombie.converted_to_drowned"
+	},
+	"entity.zombie.death": {
+		"sounds": [
+			"mob/zombie/death"
+		],
+		"subtitle": "subtitles.entity.zombie.death"
+	},
+	"entity.zombie.destroy_egg": {
+		"sounds": [
+			"mob/turtle/egg/jump_egg1",
+			"mob/turtle/egg/jump_egg2",
+			"mob/turtle/egg/jump_egg3",
+			"mob/turtle/egg/jump_egg4"
+		],
+		"subtitle": "subtitles.entity.zombie.destroy_egg"
+	},
+	"entity.zombie.hurt": {
+		"sounds": [
+			"mob/zombie/hurt1",
+			"mob/zombie/hurt2"
+		],
+		"subtitle": "subtitles.entity.zombie.hurt"
+	},
+	"entity.zombie.infect": {
+		"sounds": [
+			"mob/zombie/infect"
+		],
+		"subtitle": "subtitles.entity.zombie.infect"
+	},
+	"entity.zombie.step": {
+		"sounds": [
+			"mob/zombie/step1",
+			"mob/zombie/step2",
+			"mob/zombie/step3",
+			"mob/zombie/step4",
+			"mob/zombie/step5"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"entity.skeleton.ambient": {
+		"sounds": [
+			"mob/skeleton/say1",
+			"mob/skeleton/say2",
+			"mob/skeleton/say3"
+		],
+		"subtitle": "subtitles.entity.skeleton.ambient"
+	},
+	"entity.skeleton.death": {
+		"sounds": [
+			"mob/skeleton/death"
+		],
+		"subtitle": "subtitles.entity.skeleton.death"
+	},
+	"entity.skeleton.hurt": {
+		"sounds": [
+			"mob/skeleton/hurt1",
+			"mob/skeleton/hurt2",
+			"mob/skeleton/hurt3",
+			"mob/skeleton/hurt4"
+		],
+		"subtitle": "subtitles.entity.skeleton.hurt"
+	},
+	"entity.skeleton.shoot": {
+		"category": "ambient",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "thewii:immersive/random/bow",
+				"weight": 2146473647,
+				"volume": 1.5
+			}
+		]
+	},
+	"entity.skeleton.step": {
+		"sounds": [
+			"mob/skeleton/step1",
+			"mob/skeleton/step2",
+			"mob/skeleton/step3",
+			"mob/skeleton/step4"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"entity.player.attack.sweep": {
+		"sounds": [
+			{
+				"name": "entity/player/attack/sweep1",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep2",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep3",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep4",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep5",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep6",
+				"volume": 0.7
+			},
+			{
+				"name": "entity/player/attack/sweep7",
+				"volume": 0.7
+			}
+		],
+		"subtitle": "subtitles.entity.player.attack.sweep"
 	}
 }
