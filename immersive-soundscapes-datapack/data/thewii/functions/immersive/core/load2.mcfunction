@@ -26,6 +26,8 @@ execute if score $immersive_soundscapes thewii.load > $version.merged twis.data 
 schedule function thewii:immersive/core/tick/20 20t replace
 schedule function thewii:immersive/core/tick/5 5t replace
 
+# Debug
+tellraw @a[tag=twis.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"score":{"name":"$version.major","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.minor","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.patch","objective":"twis.data"},"color":"white","bold":false},{"text":" is loaded.","color":"white","bold":false}]
 
 # Declarations
 #define objective thewii.load
