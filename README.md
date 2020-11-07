@@ -1,6 +1,6 @@
 # Immersive Soundscapes
  
-   Immersive Soundscapes is a datapack created for Minecraft 1.15 and above that adds a ton of athmospheric sounds to fulfill the silence that it's Minecraft gameplay. It aims to improve your sound experience without causing any visible lag, being easy to install and compatible.
+   Immersive Soundscapes is a data pack created for Minecraft 1.15 and above that adds a ton of athmospheric sounds to fulfill the silence that it's Minecraft gameplay. It aims to improve your sound experience without causing any visible lag, being easy to install and compatible with almost any other data pack and Minecraft server.
  
  ## Installation:
  1. Download the [latest version](https://github.com/TheWii/immersive-sounding/releases/latest);

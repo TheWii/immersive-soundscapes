@@ -44,6 +44,8 @@ scoreboard objectives add twis.cfg_heart dummy
 scoreboard objectives add twis.cfg_swords dummy
 scoreboard objectives add twis.cfg_tools dummy
 
+
+# Configs
 scoreboard players set @a twis.cfg_cst 3
 scoreboard players set @a twis.cfg_csttrig 2
 scoreboard players set @a twis.cfg_jump 1
@@ -56,10 +58,6 @@ scoreboard players set $soundtracks twis.data 1
 
 scoreboard players set $min_cst_idle twis.data 480
 scoreboard players set $max_cst_idle twis.data 1200
-
-
-# Vanilla+ Lib modules
-execute unless data storage thewii:immersive/data installed run function thewii:vp_library/math/add
 
 
 # Versioning

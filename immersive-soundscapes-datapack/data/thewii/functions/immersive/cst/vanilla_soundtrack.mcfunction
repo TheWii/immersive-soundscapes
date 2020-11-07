@@ -1,4 +1,4 @@
-#> Vanilla music
+#> thewii:immersive/cst/vanilla_soundtrack
 
 # Default overworld gameplay
 execute if predicate thewii:immersive/dimension/in_overworld run scoreboard players set @s twis.cst_id 1

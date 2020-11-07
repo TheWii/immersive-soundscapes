@@ -6,6 +6,7 @@ execute if score @s twis.cst_idle matches 0 if score @s twis.cst_playing matches
 execute unless score @s twis.cst_idle matches 0.. unless score @s twis.cst_playing matches 0.. run scoreboard players set @s twis.cst_idle 0
 execute if score @s twis.cst_idle matches 0.. run scoreboard players add @s twis.cst_idle 1
 
+
 # Start soundtrack
 
 ## Chance to check if idle is below max
