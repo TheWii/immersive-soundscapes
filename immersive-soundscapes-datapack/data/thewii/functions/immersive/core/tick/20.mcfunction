@@ -10,9 +10,5 @@ execute if predicate thewii:immersive/weather/is_raining run scoreboard players 
 execute if predicate thewii:immersive/weather/is_thundering run scoreboard players set #weather twis.data 2
 
 
-# Update player location system
-execute as @a at @s run function thewii:immersive/player/location/start
-
-
 # Custom Soundtrack(CST) system
 execute if score $soundtracks twis.data matches 1 as @a[scores={twis.cfg_cst=2..4}] at @s run function thewii:immersive/cst/main

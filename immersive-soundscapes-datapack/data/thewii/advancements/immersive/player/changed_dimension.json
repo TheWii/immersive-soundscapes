@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "changeddim": {
+            "trigger": "minecraft:changed_dimension"
+        }
+    },
+    "requirements": [
+        [
+            "changeddim"
+        ]
+    ],
+    "rewards": {
+        "function": "thewii:immersive/player/dimensions"
+    }
+}

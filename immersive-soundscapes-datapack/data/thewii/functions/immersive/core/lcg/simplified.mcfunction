@@ -1,5 +1,5 @@
 #> thewii:immersive/core/lcg/simplified
 
-scoreboard players operation #lcg twis.data *= #lcg.constant twis.data
-scoreboard players add #lcg twis.data 12345
-scoreboard players operation #output twis.temp = #lcg twis.data
+scoreboard players operation #lcg twis.math *= #lcg.constant twis.math
+scoreboard players add #lcg twis.math 12345
+scoreboard players operation #output twis.math = #lcg twis.math

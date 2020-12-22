@@ -1,12 +1,12 @@
 #> thewii:immersive/core/lcg/ranged
 
-scoreboard players operation #range twis.temp = #max twis.temp
-scoreboard players operation #range twis.temp -= #min twis.temp
-scoreboard players add #range twis.data 1
+scoreboard players operation #range twis.math = #max twis.math
+scoreboard players operation #range twis.math -= #min twis.math
+scoreboard players add #range twis.math 1
 
-scoreboard players operation #lcg twis.data *= #lcg.constant twis.data
-scoreboard players add #lcg twis.data 12345
-scoreboard players operation #output twis.temp = #lcg twis.data
+scoreboard players operation #lcg twis.math *= #lcg.multiplier twis.math
+scoreboard players add #lcg twis.math 1623164762
+scoreboard players operation #output twis.math = #lcg twis.math
 
-scoreboard players operation #output twis.temp %= #range twis.temp
-scoreboard players operation #output twis.temp += #min twis.temp
+scoreboard players operation #output twis.math %= #range twis.math
+scoreboard players operation #output twis.math += #min twis.math

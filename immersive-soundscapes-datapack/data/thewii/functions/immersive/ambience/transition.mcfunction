@@ -12,13 +12,13 @@ execute if score @s twis.trans matches 1 if score @s twis.locsw matches 1..100 i
 execute if score @s twis.trans matches 1 if score @s twis.locsw matches 101..200 run function thewii:immersive/ambience/sounds/fadeout
 
 # Stop sound
-execute if score @s twis.trans matches 4 if score @s twis.locsw matches 1..100 if score @s twis.outside matches 1 run function thewii:immersive/ambience/sounds/stopsound
-execute if score @s twis.trans matches 4 if score @s twis.locsw matches 101..200 run function thewii:immersive/ambience/sounds/stopsound
+execute if score @s twis.trans matches 2 if score @s twis.locsw matches 1..100 if score @s twis.outside matches 1 run function thewii:immersive/ambience/sounds/stopsound
+execute if score @s twis.trans matches 2 if score @s twis.locsw matches 101..200 run function thewii:immersive/ambience/sounds/stopsound
 
 
 # Update location switch
-execute if score @s twis.trans matches 4 run scoreboard players operation @s twis.locsw = @s twis.loc
+execute if score @s twis.trans matches 2 run scoreboard players operation @s twis.locsw = @s twis.loc
 
 # Add transition counter and reset
 scoreboard players add @s twis.trans 1
-execute if score @s twis.trans matches 5.. run scoreboard players reset @s twis.trans
+execute if score @s twis.trans matches 3.. run scoreboard players reset @s twis.trans

@@ -1,1 +1,0 @@
-execute if score $immersive_soundscapes thewii.load matches 1.. run function thewii:immersive/core/tick/1
