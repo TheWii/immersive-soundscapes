@@ -31,7 +31,7 @@ scoreboard objectives add twis.joined minecraft.custom:minecraft.leave_game
 scoreboard objectives add twis.dim dummy
 scoreboard objectives add twis.dimsw dummy
 
-scoreboard objectives add twis.health dummy
+scoreboard objectives add twis.health health
 scoreboard objectives add twis.heart_loop dummy
 
 scoreboard objectives add twis.cst_id dummy
@@ -44,7 +44,6 @@ scoreboard players set @a ImmerSoundscapes 0
 scoreboard players enable @a ImmerSoundscapes
 
 scoreboard objectives add twis.cfg_cst dummy
-scoreboard objectives add twis.cfg_csttrig dummy
 
 scoreboard objectives add twis.cfg_jump dummy
 scoreboard objectives add twis.cfg_heart dummy
@@ -53,18 +52,17 @@ scoreboard objectives add twis.cfg_tools dummy
 
 
 ## Configs
-scoreboard players set @a twis.cfg_cst 3
-scoreboard players set @a twis.cfg_csttrig 2
-scoreboard players set @a twis.cfg_jump 1
-scoreboard players set @a twis.cfg_heart 1
-scoreboard players set @a twis.cfg_swords 1
-scoreboard players set @a twis.cfg_tools 1
+execute as @a unless score @s twis.cfg_cst matches 0.. run scoreboard players set @s twis.cfg_cst 3
+execute as @a unless score @s twis.cfg_csttrig matches 0.. run scoreboard players set @s twis.cfg_csttrig 2
+execute as @a unless score @s twis.cfg_jump matches 0.. run scoreboard players set @s twis.cfg_jump 1
+execute as @a unless score @s twis.cfg_heart matches 0.. run scoreboard players set @s twis.cfg_heart 1
+execute as @a unless score @s twis.cfg_swords matches 0.. run scoreboard players set @s twis.cfg_swords 1
+execute as @a unless score @s twis.cfg_tools matches 0.. run scoreboard players set @s twis.cfg_tools 1
 
-scoreboard players set $installed twis.data 1
-scoreboard players set $soundtracks twis.data 1
+execute unless score $soundtracks twis.data matches 0.. run scoreboard players set $soundtracks twis.data 1
 
-scoreboard players set $min_cst_idle twis.data 480
-scoreboard players set $max_cst_idle twis.data 1200
+execute unless score $min_cst_idle twis.data matches 0.. run scoreboard players set $min_cst_idle twis.data 480
+execute unless score $max_cst_idle twis.data matches 0.. run scoreboard players set $max_cst_idle twis.data 1200
 
 
 ## Math

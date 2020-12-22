@@ -14,6 +14,8 @@ advancement revoke @a only thewii:immersive/player_joined
 
 # Remove objectives
 scoreboard objectives remove twis.data
+scoreboard objectives remove twis.temp
+scoreboard objectives remove twis.math
 
 scoreboard objectives remove twis.jump
 
@@ -36,6 +38,9 @@ scoreboard objectives remove twis.joined
 scoreboard objectives remove twis.dim
 scoreboard objectives remove twis.dimsw
 
+scoreboard objectives remove twis.health
+scoreboard objectives remove twis.heart_loop
+
 scoreboard objectives remove ImmerSoundscapes
 
 scoreboard objectives remove twis.cfg_jump
@@ -43,13 +48,13 @@ scoreboard objectives remove twis.cfg_heart
 scoreboard objectives remove twis.cfg_swords
 scoreboard objectives remove twis.cfg_tools
 
+
 scoreboard objectives remove twis.cst_id
 scoreboard objectives remove twis.cst_idle
 scoreboard objectives remove twis.cst_length
 scoreboard objectives remove twis.cst_playing
 
 scoreboard objectives remove twis.cfg_cst
-scoreboard objectives remove twis.cfg_csttrig
 
 
 # Vanilla+ Lib modules
