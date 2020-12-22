@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "woodentools": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "thewii:immersive/weapon/wooden_tools"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "woodentools"
+        ]
+    ],
+    "rewards": {
+        "function": "thewii:immersive/player/hit/wooden_tools"
+    }
+}

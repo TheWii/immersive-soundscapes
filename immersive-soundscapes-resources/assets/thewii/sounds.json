@@ -1,224 +1,263 @@
 {
 	"immersive.entity.player.jump": {
-		"category": "ambient",
+		"category": "player",
 		"sounds": [
 			"thewii:immersive/entity/player/jump1",
 			"thewii:immersive/entity/player/jump2",
 			"thewii:immersive/entity/player/jump3",
 			{
-			"name":"thewii:immersive/entity/player/jump1",
-			"volume": 0.6
+				"name": "thewii:immersive/entity/player/jump1",
+				"volume": 0.7
 			},
 			{
-			"name":"thewii:immersive/entity/player/jump2",
-			"volume": 0.6
+				"name": "thewii:immersive/entity/player/jump2",
+				"volume": 0.7
 			},
 			{
-			"name":"thewii:immersive/entity/player/jump3",
-			"volume": 0.6
+				"name": "thewii:immersive/entity/player/jump3",
+				"volume": 0.7
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump1",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump2",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/entity/player/jump3",
+				"volume": 0.5
 			}
-    ]
-  },
+		]
+	},
 	"immersive.entity.player.attack.metal_tools": {
-		"category": "ambient",
+		"category": "player",
 		"sounds": [
 			{
-			"name":"thewii:immersive/entity/player/metal_tools",
-			"pitch": 1.0
+				"name": "thewii:immersive/entity/player/metal_tools",
+				"pitch": 1.0
 			},
 			{
-			"name":"thewii:immersive/entity/player/metal_tools",
-			"pitch": 0.9
+				"name": "thewii:immersive/entity/player/metal_tools",
+				"pitch": 0.9
 			},
 			{
-			"name":"thewii:immersive/entity/player/metal_tools",
-			"pitch": 0.8
+				"name": "thewii:immersive/entity/player/metal_tools",
+				"pitch": 0.8
 			},
 			{
-			"name":"thewii:immersive/entity/player/metal_tools",
-			"pitch": 1.1
+				"name": "thewii:immersive/entity/player/metal_tools",
+				"pitch": 1.1
 			}
-    ]
-  },
-  "immersive.entity.player.attack.wooden_tools": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/entity/player/wooden_tools1",
-		"thewii:immersive/entity/player/wooden_tools2",
-		"thewii:immersive/entity/player/wooden_tools3",
-		{
-		"name":"thewii:immersive/entity/player/wooden_tools1",
-		"pitch": 0.8
-		},
-		{
-			"name":"thewii:immersive/entity/player/wooden_tools2",
-			"pitch": 0.8
-		}
-	]
-  },
-  "immersive.entity.player.attack.wooden_sword": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/entity/player/wooden_sword1",
-		"thewii:immersive/entity/player/wooden_sword2",
-		"thewii:immersive/entity/player/wooden_sword3"
-	]
-  },
+		]
+	},
+	"immersive.entity.player.attack.wooden_tools": {
+		"category": "player",
+		"sounds": [
+			"thewii:immersive/entity/player/wooden_tools1",
+			"thewii:immersive/entity/player/wooden_tools2",
+			"thewii:immersive/entity/player/wooden_tools3",
+			{
+				"name": "thewii:immersive/entity/player/wooden_tools1",
+				"pitch": 0.8
+			},
+			{
+				"name": "thewii:immersive/entity/player/wooden_tools2",
+				"pitch": 0.8
+			}
+		]
+	},
+	"immersive.entity.player.attack.wooden_sword": {
+		"category": "player",
+		"sounds": [
+			"thewii:immersive/entity/player/wooden_sword1",
+			"thewii:immersive/entity/player/wooden_sword2",
+			"thewii:immersive/entity/player/wooden_sword3"
+		]
+	},
 	"immersive.entity.player.attack.metal_sword": {
-		"category": "ambient",
+		"category": "player",
 		"sounds": [
 			"thewii:immersive/entity/player/metal_sword1",
 			"thewii:immersive/entity/player/metal_sword2",
 			"thewii:immersive/entity/player/metal_sword3",
 			"thewii:immersive/entity/player/metal_sword4",
 			"thewii:immersive/entity/player/metal_sword5"
-    ]
-  },
+		]
+	},
+	"immersive.entity.player.heartbeat_slow": {
+		"category": "player",
+		"sounds": [
+			"thewii:immersive/entity/player/heartbeat_slow"
+		]
+	},
+	"immersive.entity.player.heartbeat_medium": {
+		"category": "player",
+		"sounds": [
+			"thewii:immersive/entity/player/heartbeat_medium"
+		]
+	},
+	"immersive.entity.player.heartbeat_fast": {
+		"category": "player",
+		"sounds": [
+			"thewii:immersive/entity/player/heartbeat_fast"
+		]
+	},
 	"immersive.ambient.surface.forest.day_loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/forest/day_loop1",
 			"thewii:immersive/ambient/surface/forest/day_loop2",
-			"thewii:immersive/ambient/surface/forest/day_loop3"
-    ]
-  },
+			"thewii:immersive/ambient/surface/forest/day_loop3",
+			"thewii:immersive/ambient/surface/forest/day_loop4"
+		]
+	},
 	"immersive.ambient.surface.forest.day_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			{
-			"name":"thewii:immersive/ambient/surface/forest/day_fadeout1"
-			},
-			{
-			"name":"thewii:immersive/ambient/surface/forest/day_fadeout2",
-			"volume": 1.25
+				"name": "thewii:immersive/ambient/surface/forest/day_fadeout1"
 			}
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.forest.day_addition": {
 		"category": "ambient",
 		"sounds": [
 			{
-			"name":"thewii:immersive/ambient/surface/forest/day_addition1",
-			"volume": 0.7,
-			"weight": 2
+				"name": "thewii:immersive/ambient/surface/forest/day_addition1",
+				"volume": 0.7,
+				"weight": 2
 			},
 			{
-			"name":"thewii:immersive/ambient/surface/forest/day_addition2",
-			"volume": 0.7,
-			"weight": 2
+				"name": "thewii:immersive/ambient/surface/forest/day_addition2",
+				"volume": 0.7,
+				"weight": 2
 			},
 			"thewii:immersive/ambient/surface/forest/day_addition3",
 			{
-			"name":"thewii:immersive/ambient/surface/forest/day_addition3",
-			"pitch": 0.95,
-			"volume": 1.5
+				"name": "thewii:immersive/ambient/surface/forest/day_addition3",
+				"pitch": 0.95,
+				"volume": 1.5
 			},
 			"thewii:immersive/ambient/surface/forest/day_addition4",
 			{
-			"name":"thewii:immersive/ambient/surface/forest/day_addition3",
-			"pitch": 0.8,
-			"volume": 1.2
+				"name": "thewii:immersive/ambient/surface/forest/day_addition3",
+				"pitch": 0.8,
+				"volume": 1.2
 			},
 			"thewii:immersive/ambient/surface/forest/day_addition5",
 			"thewii:immersive/ambient/surface/forest/day_addition6",
 			"thewii:immersive/ambient/surface/forest/day_addition7",
 			"thewii:immersive/ambient/surface/forest/day_addition8",
 			"thewii:immersive/ambient/surface/forest/day_addition9"
-    ]
-  },  
+		]
+	},
 	"immersive.ambient.surface.forest.night_loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/forest/night_loop1",
 			"thewii:immersive/ambient/surface/forest/night_loop2",
 			"thewii:immersive/ambient/surface/forest/night_loop3"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.forest.night_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/forest/night_fadeout1",
 			"thewii:immersive/ambient/surface/forest/night_fadeout2"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.forest.night_addition": {
 		"category": "ambient",
 		"sounds": [
-			"thewii:immersive/ambient/surface/forest/night_addition1",
-			"thewii:immersive/ambient/surface/forest/night_addition2",
-			"thewii:immersive/ambient/surface/forest/night_addition3",
 			{
-			"name":"thewii:immersive/ambient/surface/forest/night_addition4",
-			"pitch": 0.9,
-			"volume": 0.3
+				"name": "thewii:immersive/ambient/surface/forest/night_addition1",
+				"volume": 0.8
 			},
 			{
-			"name":"thewii:immersive/ambient/surface/forest/night_addition4",
-			"volume": 0.2
+				"name": "thewii:immersive/ambient/surface/forest/night_addition2",
+				"volume": 0.4
 			},
 			{
-			"name":"thewii:immersive/ambient/surface/forest/night_addition5",
-			"pitch": 0.9,
-			"volume": 0.15
+				"name": "thewii:immersive/ambient/surface/forest/night_addition3",
+				"volume": 0.6
 			},
 			{
-			"name":"thewii:immersive/ambient/surface/forest/night_addition5",
-			"volume": 0.2
+				"name": "thewii:immersive/ambient/surface/forest/night_addition4",
+				"pitch": 0.9,
+				"volume": 0.2
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition4",
+				"volume": 0.15
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition5",
+				"pitch": 0.9,
+				"volume": 0.15
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition5",
+				"volume": 0.15
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/forest/night_addition6",
+				"volume": 0.4
 			}
-			
-    ]
-  },
-  "immersive.ambient.surface.swamp.day_loop": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/ambient/surface/swamp/day_loop1",
-		"thewii:immersive/ambient/surface/swamp/day_loop2",
-		"thewii:immersive/ambient/surface/swamp/day_loop3"
-]
-},
-"immersive.ambient.surface.swamp.day_fadeout": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/ambient/surface/swamp/day_fadeout1",
-		"thewii:immersive/ambient/surface/swamp/day_fadeout2"
-]
-},
-"immersive.ambient.surface.swamp.night_loop": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/ambient/surface/swamp/night_loop1",
-		"thewii:immersive/ambient/surface/swamp/night_loop2",
-		"thewii:immersive/ambient/surface/swamp/night_loop3"
-]
-},
-"immersive.ambient.surface.swamp.night_fadeout": {
-	"category": "ambient",
-	"sounds": [
-		"thewii:immersive/ambient/surface/swamp/night_fadeout1",
-		"thewii:immersive/ambient/surface/swamp/night_fadeout2"
-]
-},
-"immersive.ambient.surface.swamp.addition": {
-	"category": "ambient",
-	"sounds": [
-		{
-			"name":"thewii:immersive/ambient/surface/swamp/additions1",
-			"volume": 0.5
-		},
-		{
-			"name":"thewii:immersive/ambient/surface/swamp/additions2",
-			"volume": 0.5
-		},
-		{
-			"name":"thewii:immersive/ambient/surface/swamp/additions3",
-			"volume": 0.5
-		},
-		{
-			"name":"thewii:immersive/ambient/surface/swamp/additions4",
-			"volume": 0.5
-		}
-]
-},
+		]
+	},
+	"immersive.ambient.surface.swamp.day_loop": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/surface/swamp/day_loop1",
+			"thewii:immersive/ambient/surface/swamp/day_loop2",
+			"thewii:immersive/ambient/surface/swamp/day_loop3"
+		]
+	},
+	"immersive.ambient.surface.swamp.day_fadeout": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/surface/swamp/day_fadeout1",
+			"thewii:immersive/ambient/surface/swamp/day_fadeout2"
+		]
+	},
+	"immersive.ambient.surface.swamp.night_loop": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/surface/swamp/night_loop1",
+			"thewii:immersive/ambient/surface/swamp/night_loop2",
+			"thewii:immersive/ambient/surface/swamp/night_loop3"
+		]
+	},
+	"immersive.ambient.surface.swamp.night_fadeout": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/surface/swamp/night_fadeout1",
+			"thewii:immersive/ambient/surface/swamp/night_fadeout2"
+		]
+	},
+	"immersive.ambient.surface.swamp.addition": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "thewii:immersive/ambient/surface/swamp/additions1",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/swamp/additions2",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/swamp/additions3",
+				"volume": 0.5
+			},
+			{
+				"name": "thewii:immersive/ambient/surface/swamp/additions4",
+				"volume": 0.5
+			}
+		]
+	},
 	"immersive.ambient.surface.desert.day_loop": {
 		"category": "ambient",
 		"sounds": [
@@ -228,16 +267,16 @@
 			"thewii:immersive/ambient/surface/desert/day_loop4",
 			"thewii:immersive/ambient/surface/desert/day_loop5",
 			"thewii:immersive/ambient/surface/desert/day_loop6"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.desert.day_loop_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/desert/day_loop_fadeout1",
 			"thewii:immersive/ambient/surface/desert/day_loop_fadeout2",
 			"thewii:immersive/ambient/surface/desert/day_loop_fadeout3"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.desert.night_loop": {
 		"category": "ambient",
 		"sounds": [
@@ -247,31 +286,31 @@
 			"thewii:immersive/ambient/surface/desert/night_loop4",
 			"thewii:immersive/ambient/surface/desert/night_loop5",
 			"thewii:immersive/ambient/surface/desert/night_loop6"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.desert.night_loop_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/desert/night_loop_fadeout1",
 			"thewii:immersive/ambient/surface/desert/night_loop_fadeout2",
 			"thewii:immersive/ambient/surface/desert/night_loop_fadeout3"
-    ]
-  },
-  "immersive.ambient.surface.weather.snowy": {
+		]
+	},
+	"immersive.ambient.surface.weather.snowy": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/weather/snowy1",
 			"thewii:immersive/ambient/surface/weather/snowy2",
 			"thewii:immersive/ambient/surface/weather/snowy3"
-    ]
-  },
-  "immersive.ambient.surface.weather.snowy_fadeout": {
+		]
+	},
+	"immersive.ambient.surface.weather.snowy_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/weather/snowy_fadeout1",
 			"thewii:immersive/ambient/surface/weather/snowy_fadeout2"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.nether.loop": {
 		"category": "ambient",
 		"sounds": [
@@ -280,9 +319,9 @@
 			"thewii:immersive/ambient/nether/nether_loop3",
 			"thewii:immersive/ambient/nether/nether_loop4",
 			"thewii:immersive/ambient/nether/nether_loop5"
-    ]
-  },
-	"immersive.ambient.caves.loop": {
+		]
+	},
+	"immersive.ambient.caves.loop1": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/caves/cave_loop1",
@@ -291,8 +330,41 @@
 			"thewii:immersive/ambient/caves/cave_loop4",
 			"thewii:immersive/ambient/caves/cave_loop5",
 			"thewii:immersive/ambient/caves/cave_loop6"
-    ]
-  },
+		]
+	},
+	"immersive.ambient.caves.loop2": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/caves/cave_loop1",
+			"thewii:immersive/ambient/caves/cave_loop2",
+			"thewii:immersive/ambient/caves/cave_loop3",
+			"thewii:immersive/ambient/caves/cave_loop4",
+			"thewii:immersive/ambient/caves/cave_loop5",
+			"thewii:immersive/ambient/caves/cave_loop6"
+		]
+	},
+	"immersive.ambient.caves.loop3": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/caves/cave_loop1",
+			"thewii:immersive/ambient/caves/cave_loop2",
+			"thewii:immersive/ambient/caves/cave_loop3",
+			"thewii:immersive/ambient/caves/cave_loop4",
+			"thewii:immersive/ambient/caves/cave_loop5",
+			"thewii:immersive/ambient/caves/cave_loop6"
+		]
+	},
+	"immersive.ambient.caves.loop4": {
+		"category": "ambient",
+		"sounds": [
+			"thewii:immersive/ambient/caves/cave_loop1",
+			"thewii:immersive/ambient/caves/cave_loop2",
+			"thewii:immersive/ambient/caves/cave_loop3",
+			"thewii:immersive/ambient/caves/cave_loop4",
+			"thewii:immersive/ambient/caves/cave_loop5",
+			"thewii:immersive/ambient/caves/cave_loop6"
+		]
+	},
 	"immersive.ambient.caves.loop_fadeout": {
 		"category": "ambient",
 		"sounds": [
@@ -301,48 +373,56 @@
 			"thewii:immersive/ambient/caves/cave_loop_fadeout3",
 			"thewii:immersive/ambient/caves/cave_loop_fadeout4",
 			"thewii:immersive/ambient/caves/cave_loop_fadeout5"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.caves.addition": {
 		"category": "ambient",
 		"sounds": [
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition1",
-				"weight": 3
+				"name": "thewii:immersive/ambient/caves/cave_addition1",
+				"weight": 2,
+				"volume": 1.0
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition2",
-				"weight": 3
+				"name": "thewii:immersive/ambient/caves/cave_addition2",
+				"weight": 20,
+				"volume": 1.0
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition3",
-				"weight": 3
+				"name": "thewii:immersive/ambient/caves/cave_addition3",
+				"weight": 20,
+				"volume": 1.0
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition4",
-				"weight": 3
+				"name": "thewii:immersive/ambient/caves/cave_addition4",
+				"weight": 10,
+				"volume": 0.2
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition5",
-				"weight": 3
+				"name": "thewii:immersive/ambient/caves/cave_addition5",
+				"weight": 10,
+				"volume": 0.2
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition6",
+				"name": "thewii:immersive/ambient/caves/cave_addition6",
+				"weight": 10,
 				"pitch": 0.95,
-				"volume": 0.7
+				"volume": 0.1
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition6",
+				"name": "thewii:immersive/ambient/caves/cave_addition7",
+				"weight": 10,
 				"pitch": 0.8,
-				"volume": 0.7
+				"volume": 1.0
 			},
 			{
-				"name":"thewii:immersive/ambient/caves/cave_addition6",
+				"name": "thewii:immersive/ambient/caves/cave_addition8",
+				"weight": 10,
 				"pitch": 0.7,
-				"volume": 0.7
+				"volume": 1.0
 			}
-    ]
-  },
+		]
+	},
 	"immersive.ambient.mineshaft.loop": {
 		"category": "ambient",
 		"sounds": [
@@ -352,8 +432,8 @@
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop4",
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop5",
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop6"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.mineshaft.addition": {
 		"category": "ambient",
 		"sounds": [
@@ -362,153 +442,72 @@
 			"thewii:immersive/ambient/mineshaft/mineshaft_addition3",
 			"thewii:immersive/ambient/mineshaft/mineshaft_addition4",
 			"thewii:immersive/ambient/mineshaft/mineshaft_addition5"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.mineshaft.loop_fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop_fadeout1",
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop_fadeout2",
 			"thewii:immersive/ambient/mineshaft/mineshaft_loop_fadeout3"
-    ]
-  },
-  	"immersive.ambient.surface.river.loop": {
+		]
+	},
+	"immersive.ambient.surface.river.loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/river/loop1",
 			"thewii:immersive/ambient/surface/river/loop2"
-    ]
-  },
+		]
+	},
 	"immersive.ambient.surface.river.fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/river/fadeout1",
 			"thewii:immersive/ambient/surface/river/fadeout2"
-    ]
-  },
-  	"immersive.ambient.surface.wind.loop": {
+		]
+	},
+	"immersive.ambient.surface.wind.loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/wind/loop1",
 			"thewii:immersive/ambient/surface/wind/loop2"
-    ]
-  },
-    	"immersive.ambient.surface.wind.fadeout": {
+		]
+	},
+	"immersive.ambient.surface.wind.fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/wind/fadeout1",
 			"thewii:immersive/ambient/surface/wind/fadeout2"
-    ]
-  },
-      	"immersive.ambient.surface.sea.loop": {
+		]
+	},
+	"immersive.ambient.surface.sea.loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/sea/loop1",
 			"thewii:immersive/ambient/surface/sea/loop2",
 			"thewii:immersive/ambient/surface/sea/loop3"
-    ]
-  },
-      	"immersive.ambient.surface.sea.fadeout": {
+		]
+	},
+	"immersive.ambient.surface.sea.fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/sea/fadeout1",
 			"thewii:immersive/ambient/surface/sea/fadeout2"
-    ]
-  },
-        "immersive.ambient.surface.beach.loop": {
+		]
+	},
+	"immersive.ambient.surface.beach.loop": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/beach/loop1",
 			"thewii:immersive/ambient/surface/beach/loop2",
 			"thewii:immersive/ambient/surface/beach/loop3"
-    ]
-  },
-      	"immersive.ambient.surface.beach.fadeout": {
+		]
+	},
+	"immersive.ambient.surface.beach.fadeout": {
 		"category": "ambient",
 		"sounds": [
 			"thewii:immersive/ambient/surface/beach/fadeout1",
 			"thewii:immersive/ambient/surface/beach/fadeout2"
-    ]
-  },
-  		"immersive.soundtrack.ocean": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/ocean",
-			"stream": true
-			}
-    ]
-  },
-  		"immersive.soundtrack.taiga": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/taiga",
-			"stream": true
-			}
-    ]
-  },
-  		"immersive.soundtrack.jungle": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/jungle",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.plains": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/plains",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.desert": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/desert",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.mesa": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/mesa",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.savanna": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/savanna",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.extreme_hills": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/extreme_hills",
-			"stream": true
-			}
-    ]
-  },
-    	"immersive.soundtrack.swamp": {
-		"category": "music",
-		"sounds": [
-			{
-			"name":"thewii:immersive/soundtrack/swamp",
-			"stream": true
-			}
-    ]
-  }
+		]
+	}
 }

@@ -1,11 +1,21 @@
-advancement revoke @s only thewii:immersive/metal_swords
-advancement revoke @s only thewii:immersive/metal_tools
-advancement revoke @s only thewii:immersive/wooden_tools
-advancement revoke @s only thewii:immersive/wooden_swords
-advancement revoke @s only thewii:immersive/player_joined
+#> thewii:immersive/uninstall
 
+# Clear schedules
+schedule clear thewii:immersive/core/tick/5
+schedule clear thewii:immersive/core/tick/20
+
+# Revoke advancements
+advancement revoke @a only thewii:immersive/metal_swords
+advancement revoke @a only thewii:immersive/metal_tools
+advancement revoke @a only thewii:immersive/wooden_tools
+advancement revoke @a only thewii:immersive/wooden_swords
+advancement revoke @a only thewii:immersive/player_joined
+
+
+# Remove objectives
 scoreboard objectives remove twis.data
 scoreboard objectives remove twis.temp
+scoreboard objectives remove twis.math
 
 scoreboard objectives remove twis.jump
 
@@ -28,7 +38,16 @@ scoreboard objectives remove twis.joined
 scoreboard objectives remove twis.dim
 scoreboard objectives remove twis.dimsw
 
+scoreboard objectives remove twis.health
+scoreboard objectives remove twis.heart_loop
+
 scoreboard objectives remove ImmerSoundscapes
+
+scoreboard objectives remove twis.cfg_jump
+scoreboard objectives remove twis.cfg_heart
+scoreboard objectives remove twis.cfg_swords
+scoreboard objectives remove twis.cfg_tools
+
 
 scoreboard objectives remove twis.cst_id
 scoreboard objectives remove twis.cst_idle
@@ -36,10 +55,19 @@ scoreboard objectives remove twis.cst_length
 scoreboard objectives remove twis.cst_playing
 
 scoreboard objectives remove twis.cfg_cst
-scoreboard objectives remove twis.cfg_csttrig
 
-execute if entity @s[type=player,tag=!immersive.fix] run tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] ["",{"text":"[Datapack]: ","color":"red","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"nbt":"Version","storage":"thewii:immersive/data","color":"white","bold":false},{"text":" uninstalled. Use ","color":"white","bold":false},{"text":"/function thewii:immersive/install"},{"text":" or disable the datapack/remove it from the world."}]
 
-data remove storage thewii:immersive/data Version
-data remove storage thewii:immersive/data NumericVersion
-data merge storage thewii:immersive/data {FirstReload:1b,Installed:0b}
+# Vanilla+ Lib modules
+execute if data storage thewii:immersive/data installed run function thewii:vp_library/math/remove
+
+
+# Clear load version
+scoreboard players reset $immersive_soundscapes thewii.load
+
+# Clear storage
+data remove storage thewii:immersive/data installed
+data remove storage thewii:immersive/data version
+
+
+# Uninstalled message
+tellraw @a [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes was uninstalled. Disable the datapack to complete uninstallation or /reload to reinstall it.","color":"white","bold":false}]

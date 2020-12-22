@@ -1,3 +1,5 @@
+#> thewii:immersive/cst/ended
+
 # Stop any music playing
 stopsound @s music
 
