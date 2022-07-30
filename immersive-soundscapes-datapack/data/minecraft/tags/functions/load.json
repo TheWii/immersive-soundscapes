@@ -1,5 +1,5 @@
 {
   "values": [
-    "#thewii:load/__init"
+    "thewii:immersive/core/load"
   ]
 }
