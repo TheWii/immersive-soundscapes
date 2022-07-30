@@ -1,0 +1,15 @@
+name: immersive-soundscapes
+output: dist
+data_pack:
+  load:
+    - immersive-soundscapes-datapack
+resource_pack:
+  load:
+    - immersive-soundscapes-resources
+require:
+  - bolt
+pipeline:
+  - mecha
+meta:
+  generate_namespace: thewii
+  generate_prefix: immersive

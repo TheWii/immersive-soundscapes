@@ -1,2 +1,4 @@
 releases/
 assets/
+dist/
+.beet_cache
