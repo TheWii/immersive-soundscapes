@@ -1,15 +1,33 @@
-name: immersive-soundscapes
-output: dist
-data_pack:
-  load:
-    - immersive-soundscapes-datapack
-resource_pack:
-  load:
-    - immersive-soundscapes-resources
+name: Immersive Soundscapes
+author: TheWii
+version: 3.0.0
+minecraft: 1.19
 require:
-  - bolt
+    - bolt
 pipeline:
-  - mecha
+    - mecha
+output: out
+
+data_pack:
+    name: "immersive-soundscapes-datapack-v{{project_version}}"
+    description: [
+        { text: "Immersive Soundscapes", color: "green" },
+        { text: "\nv{{project_version}} by {{project_author}}.", color: "dark_gray" }
+    ]
+    load:
+        data: src
+        pack.png: pack.png
+
+resource_pack:
+    name: "immersive-soundscapes-resources-v{{project_version}}"
+    description: [
+        { text: "Immersive Soundscapes", color: "green" },
+        { text: "\nv{{project_version}} by {{project_author}}.", color: "dark_gray" }
+    ]
+    load:
+        assets: assets
+        pack.png: pack.png
+
 meta:
-  generate_namespace: thewii
-  generate_prefix: immersive
+    generate_namespace: thewii
+    generate_prefix: immersive

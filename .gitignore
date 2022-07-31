@@ -1,4 +1,4 @@
 releases/
-assets/
-dist/
+out/
 .beet_cache
+__pycache__
