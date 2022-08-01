@@ -1,18 +1,15 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:leaves",
+    "#minecraft:replaceable_plants",
     "minecraft:cave_air",
     "minecraft:air",
-    "minecraft:oak_leaves",
-    "minecraft:spruce_leaves",
-    "minecraft:birch_leaves",
-    "minecraft:acacia_leaves",
-    "minecraft:dark_oak_leaves",
-    "minecraft:jungle_leaves",
+    "minecraft:mangrove_roots",
+    "minecraft:mangrove_propagule",
     "minecraft:snow",
     "minecraft:torch",
     "minecraft:lever",
-    "minecraft:vine",
     "minecraft:sugar_cane"
   ]
 }
