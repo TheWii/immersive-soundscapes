@@ -9,4 +9,3 @@ execute if score @s twis.loop matches 1 run function thewii:immersive/ambience/s
 
 # Play addition
 execute if score @s twis.loop matches 15 if predicate thewii:immersive/surface_addition_chance run function thewii:immersive/ambience/sounds/addition
-execute if score @s twis.loop matches 60 if predicate thewii:immersive/surface_addition_chance run function thewii:immersive/ambience/sounds/addition
