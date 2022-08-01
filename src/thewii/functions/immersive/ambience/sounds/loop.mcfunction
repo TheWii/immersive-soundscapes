@@ -36,7 +36,7 @@ execute if score @s twis.loc matches 100 at @s run playsound thewii:immersive.am
 # BACKGROUND
 
 ## River
-execute if score @s twis.backgr matches 1 at @s run playsound thewii:immersive.ambient.surface.river.loop ambient @s ~ ~ ~ 0.6 0.97
+execute if score @s twis.backgr matches 1 at @s run playsound thewii:immersive.ambient.surface.river.loop ambient @s ~ ~ ~ 0.3 1
 
 
 # LOCATION (Lower volume)
