@@ -10,19 +10,13 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:mushroom_field_shore"
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
         "biome": "minecraft:snowy_beach"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:stone_shore"
+        "biome": "minecraft:stony_shore"
       }
     }
   ]

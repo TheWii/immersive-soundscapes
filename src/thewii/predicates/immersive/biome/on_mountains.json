@@ -16,13 +16,25 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
+        "biome": "minecraft:windswept_gravelly_hills"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:windswept_hills"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
         "biome": "minecraft:wooded_mountains"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:stone_shore"
+        "biome": "minecraft:stony_peaks"
       }
     }
   ]
