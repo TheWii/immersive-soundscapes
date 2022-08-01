@@ -1,7 +1,9 @@
 #> thewii:immersive/core/load2
 
 # Datapack version
-scoreboard players set $immersive_soundscapes thewii.load 020400
+major, minor, patch = map(int, ctx.project_version.split("."))
+int_version = major*10000 + minor*100 + patch
+scoreboard players set $immersive_soundscapes thewii.load int_version
 
 # Install
 
@@ -102,6 +104,24 @@ schedule function thewii:immersive/core/tick/2 2t replace
 tellraw @a[tag=twis.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"score":{"name":"$version.major","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.minor","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.patch","objective":"twis.data"},"color":"white","bold":false},{"text":" is loaded.","color":"white","bold":false}]
 
 
+advancement thewii:immersive/core/immersive-soundscapes:
+    display:
+        title: [
+            {"text":f"[v{ctx.project_version}] ","color":"dark_green"},
+            {"text":"Immersive Soundscapes","color":"green"}
+        ]
+        description: [
+            {"text":"Athmospheric sound generator.","color":"white"},
+            {"translate":"\n\n[twis] Resource Pack is missing.","color":"red"}
+        ]
+        icon:
+            item: "minecraft:music_disc_cat"
+        announce_to_chat: false
+        show_toast: false
+    parent: "global:thewii"
+    criteria:
+        trigger:
+            trigger: "minecraft:tick"
 
 # Declarations
 #define objective thewii.load
