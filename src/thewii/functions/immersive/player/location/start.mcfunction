@@ -54,8 +54,12 @@ execute if score #weather twis.data matches 1.. if predicate thewii:immersive/bi
 execute if score #weather twis.data matches 1.. if predicate thewii:immersive/biome/on_mountains unless entity @s[y=0,dy=90] run scoreboard players set @s twis.preloc 10
 execute if score #weather twis.data matches 1.. if predicate thewii:immersive/biome/on_taiga unless entity @s[y=0,dy=130] run scoreboard players set @s twis.preloc 10
 
-## Stop ambience if raining (except on deserts and snowy biomes)
-execute if score #weather twis.data matches 1.. unless score @s twis.loc matches 2 unless score @s twis.loc matches 10 run scoreboard players set @s twis.outside 0
+## Stop ambience if raining
+execute if score #weather twis.data matches 1..
+    unless score @s twis.loc matches 2..4 # desert, beach and snowfall
+    unless score @s twis.loc matches 10 # snowfall
+    unless score @s twis.loc matches 100 # high altitude wind
+    scoreboard players set @s twis.outside 0
 
 
 # BACKGROUND
@@ -80,7 +84,7 @@ execute if predicate thewii:immersive/dimension/in_end run scoreboard players se
 
 
 # Cave (Cave air)
-execute if predicate thewii:immersive/cave_air run function thewii:immersive/player/location/cave
+execute if predicate thewii:immersive/biome/on_caves run function thewii:immersive/player/location/cave
 
 
 # LOCATIONS
