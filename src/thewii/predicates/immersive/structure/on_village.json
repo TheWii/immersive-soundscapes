@@ -1,9 +1,6 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
+  "condition": "minecraft:location_check",
   "predicate": {
-    "location": {
-      "feature": "village"
-    }
+    "structure": "minecraft:village"
   }
 }
