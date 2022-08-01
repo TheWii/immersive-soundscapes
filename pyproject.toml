@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "immersive-soundscapes"
-version = "3.0.0"
+version = "2.5.0"
 description = ""
 authors = ["TheWii <67249660+TheWii@users.noreply.github.com>"]
 license = "MIT"

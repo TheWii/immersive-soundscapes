@@ -1,6 +1,6 @@
 name: Immersive Soundscapes
 author: TheWii
-version: 3.0.0
+version: 2.5.0
 minecraft: 1.19
 require:
     - bolt
