@@ -1,0 +1,56 @@
+from lib:lantern import load
+from bolt_expressions import Expression
+
+ 
+function load(./core/load):
+    # Clear schedules
+    schedule clear ./core/tick/5
+    schedule clear ./core/tick/20
+    # Check dependencies
+    scoreboard players set #load thewii.load 1
+    ## 1.15
+    scoreboard players set $1.15 thewii.load 0
+    function ./core/check_1.15
+    execute unless score $1.15 thewii.load matches 1 run scoreboard players set #load thewii.load 0
+    # Success load
+    execute if score #load thewii.load matches 1 run function ./core/load2:
+        Expression.init()
+        # Datapack version
+        major, minor, patch = map(int, ctx.project_version.split("."))
+        int_version = major*10000 + minor*100 + patch
+        scoreboard players set $immersive_soundscapes thewii.load int_version
+        # Install
+        ## Configs
+        execute as @a unless score @s twis.cfg_cst matches 0.. run scoreboard players set @s twis.cfg_cst 3
+        execute as @a unless score @s twis.cfg_csttrig matches 0.. run scoreboard players set @s twis.cfg_csttrig 2
+        execute as @a unless score @s twis.cfg_jump matches 0.. run scoreboard players set @s twis.cfg_jump 1
+        execute as @a unless score @s twis.cfg_heart matches 0.. run scoreboard players set @s twis.cfg_heart 1
+        execute as @a unless score @s twis.cfg_swords matches 0.. run scoreboard players set @s twis.cfg_swords 1
+        execute as @a unless score @s twis.cfg_tools matches 0.. run scoreboard players set @s twis.cfg_tools 1
+        execute unless score $soundtracks twis.data matches 0.. run scoreboard players set $soundtracks twis.data 1
+        execute unless score $min_cst_idle twis.data matches 0.. run scoreboard players set $min_cst_idle twis.data 480
+        execute unless score $max_cst_idle twis.data matches 0.. run scoreboard players set $max_cst_idle twis.data 1200
+        ## Math
+        scoreboard players set #-1 twis.math -1
+        scoreboard players set #lcg.multiplier twis.math 1630111353
+        execute unless score #lcg twis.math matches 0.. run function ./core/lcg/reset_seed
+        # Update
+        execute store result score $version.merged twis.data run data get storage ./data version.merged
+        execute if score $version.merged twis.data matches 1.. if score $immersive_soundscapes thewii.load > $version.merged twis.data run function ./core/update
+        # Version
+        function ./core/version
+        # Minecraft versions
+        function ./core/check_1.16
+        scoreboard players set $1.15 twis.data 1
+        scoreboard players operation $1.16 twis.data = $1.16 thewii.load
+        # Soundtrack registry
+        execute if score $soundtracks twis.data matches 1 run function ./cst/register
+        # Schedules
+        schedule function ./core/tick/20 20t replace
+        schedule function ./core/tick/5 5t replace
+        schedule function ./core/tick/2 2t replace
+        # Debug
+        tellraw @a[tag=.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"text":"Immersive Soundscapes v","color":"white","bold":false},{"score":{"name":"$version.major","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.minor","objective":"twis.data"},"color":"white","bold":false},{"text":".","color":"white","bold":false},{"score":{"name":"$version.patch","objective":"twis.data"},"color":"white","bold":false},{"text":" is loaded.","color":"white","bold":false}]
+
+    # Fail load messages
+    execute if score #load thewii.load matches 0 run tellraw @a [{"text":"[Debug]: ","color":"red","bold":true},{"text":"Immersive Soundscapes failed to load. It requires Minecraft 1.15 or above.","color":"white","bold":false}]

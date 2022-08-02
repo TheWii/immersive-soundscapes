@@ -22,7 +22,7 @@ image = ["pillow"]
 
 [[package]]
 name = "beet-plugins"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 category = "main"
 optional = false
@@ -37,7 +37,7 @@ bolt-expressions = ">=0.6.1"
 type = "git"
 url = "https://github.com/TheWii/beet-plugins.git"
 reference = "main"
-resolved_reference = "8754c7c4672753b30029ac0023c7d5f22cc2a018"
+resolved_reference = "4a486b45ffe9cf809d4140e6f8a07bd6f10eceff"
 
 [[package]]
 name = "bolt"

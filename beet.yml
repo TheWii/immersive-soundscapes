@@ -4,6 +4,7 @@ version: 2.5.0
 minecraft: 1.19
 require:
     - bolt
+    - bolt_expressions
 pipeline:
     - mecha
 output: out
@@ -16,6 +17,8 @@ data_pack:
     ]
     load:
         data: data
+        data/thewii/modules/immersive: src
+        data/lib/modules: "@beet_plugins/utils"
         pack.png: pack.png
 
 resource_pack:
@@ -31,3 +34,8 @@ resource_pack:
 meta:
     generate_namespace: thewii
     generate_prefix: immersive
+    bolt:
+        entrypoint: "thewii:*"
+    bolt_expressions:
+        objective_prefix: "twis."
+        init_path: core/objectives
