@@ -15,7 +15,7 @@ data_pack:
         { text: "\nv{{project_version}} by {{project_author}}.", color: "dark_gray" }
     ]
     load:
-        data: src
+        data: data
         pack.png: pack.png
 
 resource_pack:
