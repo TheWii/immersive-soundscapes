@@ -1,6 +1,7 @@
 {
   "condition": "minecraft:location_check",
   "predicate": {
+    "feature": "minecraft:village",
     "structure": "minecraft:village"
   }
 }

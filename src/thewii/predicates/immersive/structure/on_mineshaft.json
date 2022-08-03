@@ -1,6 +1,7 @@
 {
   "condition": "minecraft:location_check",
   "predicate": {
+    "feature": "minecraft:mineshaft",
     "structure": "minecraft:mineshaft"
   }
 }

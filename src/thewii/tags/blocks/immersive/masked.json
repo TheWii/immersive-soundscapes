@@ -5,8 +5,14 @@
     "#minecraft:replaceable_plants",
     "minecraft:cave_air",
     "minecraft:air",
-    "minecraft:mangrove_roots",
-    "minecraft:mangrove_propagule",
+    {
+      "id": "minecraft:mangrove_roots",
+      "required": false
+    },
+    {
+      "id": "minecraft:mangrove_propague", 
+      "required": false
+    },
     "minecraft:snow",
     "minecraft:torch",
     "minecraft:lever",
