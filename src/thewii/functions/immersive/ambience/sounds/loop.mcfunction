@@ -79,7 +79,7 @@ execute if score @s twis.loc matches 103 at @s run playsound thewii:immersive.am
 execute if score @s twis.loc matches 104 at @s run playsound thewii:immersive.ambient.caves.loop4 ambient @s ~ ~ ~ 0.06 1
 
 # Mineshaft
-execute if score @s twis.loc matches 105 at @s run playsound thewii:immersive.ambient.mineshaft.loop ambient @s ~ ~ ~ 0.75 1
+execute if score @s twis.loc matches 105 at @s run playsound thewii:immersive.ambient.mineshaft.loop ambient @s ~ ~ ~ 0.4 1
 
 
 

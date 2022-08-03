@@ -39,4 +39,4 @@ execute if score #location twis.loop matches 103 at @s run playsound thewii:imme
 execute if score #location twis.loop matches 104 at @s run playsound thewii:immersive.ambient.caves.loop_fadeout ambient @s ~ ~ ~ 0.06 1
 
 # Mineshaft
-execute if score #location twis.loop matches 105 at @s run playsound thewii:immersive.ambient.mineshaft.loop_fadeout ambient @s ~ ~ ~ 0.75 1
+execute if score #location twis.loop matches 105 at @s run playsound thewii:immersive.ambient.mineshaft.loop_fadeout ambient @s ~ ~ ~ 0.4 1
