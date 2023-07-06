@@ -12,16 +12,16 @@ scoreboard players operation $version.merged twis.data = $immersive_soundscapes 
 
 # Major 01XXXX
 scoreboard players operation $version.major twis.data = $immersive_soundscapes thewii.load
-scoreboard players operation $version.major twis.data /= #10000 twvp.math
+scoreboard players operation $version.major twis.data /= #10000 twis.math
 
 # Minor XX02XX
 scoreboard players operation $version.minor twis.data = $immersive_soundscapes thewii.load
-scoreboard players operation $version.minor twis.data /= #100 twvp.math
-scoreboard players operation $version.minor twis.data %= #100 twvp.math
+scoreboard players operation $version.minor twis.data /= #100 twis.math
+scoreboard players operation $version.minor twis.data %= #100 twis.math
 
 # Patch XXXX03
 scoreboard players operation $version.patch twis.data = $immersive_soundscapes thewii.load
-scoreboard players operation $version.patch twis.data %= #100 twvp.math
+scoreboard players operation $version.patch twis.data %= #100 twis.math
 
 
 # Store integers to storage

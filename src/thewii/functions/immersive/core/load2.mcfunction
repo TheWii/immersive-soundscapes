@@ -70,6 +70,9 @@ execute unless score $max_cst_idle twis.data matches 0.. run scoreboard players 
 ## Math
 scoreboard players set #-1 twis.math -1
 scoreboard players set #lcg.multiplier twis.math 1630111353
+scoreboard players set #100 twis.math 100
+scoreboard players set #10000 twis.math 10000
+
 
 execute unless score #lcg twis.math matches 0.. run function thewii:immersive/core/lcg/reset_seed
 
@@ -106,14 +109,12 @@ tellraw @a[tag=twis.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"
 
 advancement thewii:immersive/core/immersive-soundscapes:
     display:
-        title: [
-            {"text":f"[v{ctx.project_version}] ","color":"dark_green"},
-            {"text":"Immersive Soundscapes","color":"green"}
-        ]
-        description: [
-            {"text":"Athmospheric sound generator.","color":"white"},
-            {"translate":"\n\n[twis] Resource Pack is missing.","color":"red"}
-        ]
+        title:
+            - {"text":f"[v{ctx.project_version}] ","color":"dark_green"}
+            - {"text":"Immersive Soundscapes","color":"green"}
+        description:
+            - {"text":"Athmospheric sound generator.","color":"white"}
+            - {"translate":"\n\n[twis] Resource Pack is missing.","color":"red"}
         icon:
             item: "minecraft:music_disc_cat"
         announce_to_chat: false
